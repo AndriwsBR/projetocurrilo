@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <link rel="stylesheet" href="./sobre.css">
+    <style>
+        #gif {
+            display: none;
+            margin-top: 20px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá quem sou eu?⚡</h1>
+
+    <p>Sou um aventureiro empático, sempre em busca de experiências que deixam marcas na alma. <br> 
+        Adoro explorar novas paisagens, especialmente praias. Sou apaixonado por games e pela <br> língua inglesa,
+        e mergulho nesses mundos com a mesma intensidade que viajo pelo real. <br>  
+        Viajar ao lado da minha esposa é o que mais me inspira — ela é minha melhor companhia <br> em qualquer jornada.
+        Gosto de transformar momentos simples em grandes memórias,  <br>sempre com o coração aberto e a mente curiosa.
+    </p>
+
+    <button onclick="mostrarGif()">Clique aqui</button>
+
+    <div id="gif">
+        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczEwcWdsOW5jamxjcDVna3M2YXAzMXMyazh6NTNzenVsZWp6YnliMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ab1bhpUtrS8x8kncHd/giphy.gif" alt="GIF" width="300">
+    </div>
+
+    <script>
+        function mostrarGif() {
+            document.getElementById("gif").style.display = "block";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body {
+    background-image: url('image/image2.jpg'), url('image/image3.png');
+    background-position: right center bottom,  left center bottom;
+    background-repeat: no-repeat;
+    background-size: 90%, 80%;
+
+    background-color: rgb(17, 20, 11);
+    color: aliceblue;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+
+}
