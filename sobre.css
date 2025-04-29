@@ -3,12 +3,13 @@ body {
     background-position: right center bottom,  left center bottom;
     background-repeat: no-repeat;
     background-size: 90%, 80%;
-
     background-color: rgb(17, 20, 11);
     color: aliceblue;
-
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+}
 
-
+#QRCODE img {
+    width: 150px;  /* ou outro valor menor que preferir */
+    height: auto;
+    margin-top: 20px;
 }

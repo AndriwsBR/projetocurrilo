@@ -29,16 +29,29 @@
         Gosto de transformar momentos simples em grandes memórias,  <br>sempre com o coração aberto e a mente curiosa.
     </p>
 
-    <button onclick="mostrarGif()">Clique aqui</button>
+    <button onclick="mostrarGif()">Clique aqui!!!</button>
 
     <div id="gif">
-        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczEwcWdsOW5jamxjcDVna3M2YXAzMXMyazh6NTNzenVsZWp6YnliMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ab1bhpUtrS8x8kncHd/giphy.gif" alt="GIF" width="300">
+        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTVtNHdjOWMzbXQ2bjBjNHg1OGd6MWk5YmdhdmFncWM2cW9jMDJsYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4oMoIbIQrvCjm/giphy.gif" alt="GIF" width="300">
     </div>
+
 
     <script>
         function mostrarGif() {
-            document.getElementById("gif").style.display = "block";
+            const gif = document.getElementById('gif');
+            // Alterna entre 'block' e 'none'
+            if (gif.style.display === 'none' || gif.style.display === '') {
+                gif.style.display = 'block';
+            } else {
+                gif.style.display = 'none';
+            }
         }
     </script>
+    
+    </body>
+    </html>
+    
+
+
 </body>
 </html>

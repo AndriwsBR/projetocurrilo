@@ -1,3 +1,10 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
 body {
 
     background-color: #f8f8ff;
@@ -27,6 +34,31 @@ header img {
         border-radius: 50%;
         object-fit: cover;
         border: 2px solid cornflowerblue;
+}
+
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 0 auto;
+  margin: 4px auto;
+
+}
+
+#switch button {
+  width: 32px;
+  height: 32px;
+  background: #f8f8ff;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  translate: translateY(-50%);
+  animation: s;
+
+
+
 }
 
 main ul li a button:hover{
@@ -119,5 +151,3 @@ button::after {
 button:hover::after {
     width: 50%; /* ajuste o tamanho da linha aqui */
 }
-
-
